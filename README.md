@@ -1,6 +1,6 @@
-<h2 align = "center"> About me </h2>
+<h2> About me </h2>
 <div>
-   <table width="100%" height="100%" align="center" valign="center">
+   <table width="25%" height="25%" align="center" valign="center">
    <tr><td>
       <img src="phot.jpg" />
    </td></tr>
