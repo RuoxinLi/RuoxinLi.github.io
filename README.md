@@ -1,5 +1,5 @@
 <h2 align = "center"> About me </h2>
-<img src = "">
+<img src = "phot.jpg" align = "center">
 <p> Hello! My name is Ruoxin Li, you can also call me Rita if you want. I am a second year master's student in the department of Statistics at UC Davis. This is my first personal webpage for data analysis projects.My github repository is <a>https://github.com/RuoxinLi</a> . </p>
 
 
@@ -20,7 +20,66 @@ how do price, rating, number of reviews are related to each other? How do price 
 <p>
 The total number of pages we scrap is over 20000. During the search process, we found out that using “City” as search term is not a wise choice. Since the upper limit of the number of records displayed for any search term  is 1000. It largely limited the amount of data we can get for analysis. Our strategy to solve this problem is to split one city into multiple sub-areas, for instance detroit is splitted into Downtown Detroit, Detroit Riverside etc. In small areas, the number of restaurants will not exceed the upper bound for search records. Then we can get almost all restaurants in a city by simply adding up all the records we get from scraping each small area. There is also downside of this method, we can not using such method to scrap large cities like NYC, since there is no guarantee that the number of records in even small area will be less than 1000.
 </p>
+<p>Here is one example we scraped single page</p>
+```{python}
+def extract_single_page(url):
+	#url = "https://www.yelp.com/biz/craftsman-and-wolves-the-den-san-francisco-2"
+	page = requests.get(url)
+	tree = lx.fromstring(page.content)
+	try:
+		claim = tree.xpath('//div[@class="u-nowrap claim-status_teaser js-claim-status-hover"]')[0].text_content()
+		claims = re.sub(" ","",claim).strip('\n')
+	except:
+		claims = None
+	try:
+		health_inspect = tree.xpath('//dd[@class="nowrap health-score-description"]')[0].text_content()
+		hl_inspect = re.sub(" ","",health_inspect).strip('\n')
+	except:
+		hl_inspect = None
 
+	week = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun']
+	hours = {i : None for i in week}
+	try:
+		hour = tree.xpath('//table[@class="table table-simple hours-table"]//tr')
+		hou = {i.xpath('th')[0].text_content().strip():i.xpath('td')[0].text_content().strip() for i in hour}			
+		for wkday in week:		
+			hours.update({wkday:hou[wkday]})
+	except:
+		hours = hours	
+
+	try:
+		more_info= tree.xpath('//div[@class="short-def-list"]')[0].text_content()
+		more_info= [ii for ii in re.sub(" ","",more_info).split('\n') if ii not in ['']]
+		more_info = {more_info[i]:more_info[i+1] for i in range(0,len(more_info)-1,2)}
+
+	except:
+		more_info = None
+	try: 
+		loc = tree.find_class('lightbox-map hidden')[0].get('data-map-state')
+		d = json.loads(loc)
+		latitude = d.get('center').get('latitude')
+		longitude = d.get('center').get('longitude')
+	except:
+		latitude = None
+		longitude = None
+
+	li = tree.xpath("//div/h3[text()='People also viewed']/../ul/li")
+	related3 = {'related'+str(i):None for i in range(3)}
+	try:
+		related = [i.find_class('js-analytics-click')[0].get('href').split('/')[2].split('?')[0] for i in li]
+		k = 0
+		for j in related:
+			related3.update({'related'+str(k):j}) 
+			k +=1
+	except:    
+		related3 = {'related'+str(i):None for i in range(3)}
+
+	Business = {"claimed status":claims,"health inspect":hl_inspect,"more information":more_info, 'latitude':latitude,'longitude':longitude}
+	Business.update(hours)  
+	Business.update(related3)  
+	return Business
+
+```
 
 
 <h5>Data Processing</h5>
@@ -31,23 +90,7 @@ For the purpose of convenience, we group our raw tag set into 9 new categories. 
 
 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 
 
