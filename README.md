@@ -1,4 +1,5 @@
-<h2> About me </h2>
+<h2 align = "center"> About me </h2>
+<img src = "">
 <p> Hello! My name is Ruoxin Li, you can also call me Rita if you want. I am a second year master's student in the department of Statistics at UC Davis. This is my first personal webpage for data analysis projects.My github repository is <a>https://github.com/RuoxinLi</a> . </p>
 
 
