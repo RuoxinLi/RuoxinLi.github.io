@@ -142,7 +142,7 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
   <p> A more detailed analysis is on <a href = "https://github.com/miaoelenawang/STA-141B-Final-Project/tree/master">project repository</a></p>
   
  <h4>Spatial Grouping in network of restaurants in two cities</h4>
- <h5><strong>Introduction</strong></h5>
+ <h5 align = "center"><strong>Introduction</strong></h5>
   <p>From the Yelp website, we find the relatedness of each restaurant. It is known that Yelp recommends those related restaurant for similarity between them. For instance, restaurants may sell same kinds of food or are close to each other. Therefore we want to recover such similarity between those restaurants which are related. In the network graph, each node is a restaurant and edges are connections. Here we color the nodes by their tags( after cleaning). We are hoping we can see some grouping on the nodes of the network graph.
  <br> Note: Since it is possible for each restaurant to have multiple tags, we add boolean attributes to each restaurant( such as whether a restaurant has tag "Chinese" or not). Therefore, if we click on tag in the legend, the colored nodes are restaurants with that tag, while the gray one are restaurants does not have that tag.</p>
   
@@ -178,8 +178,9 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
 Firstly there are other information like location involves in the connetion plots;<br>
 Secondly, the number of restraurants in those plots are relatively larger than the restraurants with tags like Chinese, Japanese and Kocrean, making them harder to group.</p>
 
-<h3>Distribution</h3>
+<h5>Distribution</h5>
 <p>The number of restaurants with tags:<br>American > Acohol, Dessert, Europe ,SouthAmerican> Chinese, japaneseKorean, Indian > others</p>
-<h3> More projects </h3>
+<h3> Research Projects </h3>
+<p> Coming Soon...<p>
 
 
