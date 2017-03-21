@@ -148,7 +148,7 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
           <div class="chart-title">
             San-francisco
           </div>
-          <iframe width="100%" height="1000px" frameborder="0" scrolling="no" src="http://plot.ly/~Rita0309/38.embed"> </iframe>
+          
           </div>
       </div>    
       <div class="col-sm-4">
