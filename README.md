@@ -1,11 +1,7 @@
 <h2> About me </h2>
-<div>
-   <table width="25%" height="25%" align="center" valign="center">
-   <tr><td>
-      <img src="phot.jpg" />
-   </td></tr>
-   </table>
-</div>
+
+<img src="phot.jpg" width = "100px" height = "100px"/>
+   
 
 <p> Hello! My name is Ruoxin Li, you can also call me Rita if you want. I am a second year master's student in the department of Statistics at UC Davis. This is my first personal webpage for data analysis projects.My github repository is <a>https://github.com/RuoxinLi</a> . </p>
 
@@ -100,12 +96,49 @@ def extract_single_page(url):
 For the purpose of convenience, we also group our raw tag set into 9 new categories. The original tags and our grouping methods are listed below. A more detailed explanation on how we deal with the dataset is on our project webpage. 
 </p>
 
-<h3> align = "center">Question we answered</h3>
-<h4> Distribution of Price, Rating in different categories.<h4>
-<p> Firstly we discovered single variables. Rating and price are important attributes of restaurants. In the dataset, ratings are real numbers from 0 to 5 while price are categorical(1: Inexpensive, 2: Moderate, 3: Pricey, 4: Highend). We are interested in Price and Rating's distribution in different cities and restaurants tags. 
+<h3 align = "center">Interesting Insights</h3>
 
+<p> Firstly we discovered single variables. Rating and price are important attributes of restaurants. In the dataset, ratings are real numbers from 0 to 5 while price are categorical(1: Inexpensive, 2: Moderate, 3: Pricey, 4: Highend). We are interested in Price and Rating's distribution in different cities and restaurants tags.
 
-
+<h4>Taste in different cities</h4>
+<ol>
+        <li>In general, cities affect the distribution of rating for some kinds of food. 
+                    For example, Albuquerque has a larger proportion of Low ratings for European food 
+                    than other cities.</li>
+                <li>In San Francisco, Alcohol, Dessert, American and South American(Mexican) food tend to 
+                have higher ratings than other kinds of food.</li>
+                <li>In Albuquerque, Dessert, American and South American(Mexican) food have a larger percentage of high ratings,
+                    while American food has a larger proportion of low ratings than others.</li>
+                <li>In Detroit, Dessert and Southeast Asian food have a larger percentage of high ratings.</li>
+                <li>In conclusion, people in different areas might have different tastes. </li>
+            </ol> 
+<h4>Spatial Difference of Price and Rating in three cities</h4>
+       
+<ol>
+                <li><strong> Rating </strong>
+                    <ul style="list-style-type:disc">
+                          <li>In San Francisco, restaurants in Bayview-Hunters Point, Bernal Heights, Castro, Misson, Potrero Hill,
+                          SoMa areas have higher rating than others.</li>
+                          <li>In Albuquerque, restaurants in Barelas/South Valley, Downtown and International District areas have
+                          higher rating than others.</li>
+                          <li>In Detroit, restaurants in Eastern Market, Southwest Detroit, Warrendale areas have higher rating than
+                          others.</li>
+                    </ul>
+                </li>
+                
+                <li><strong> Price </strong>
+                    <ul style="list-style-type:disc">
+                          <li>For each city, price of restaurants in different areas are concentrated on "$" and "$$".
+                              But there still exists slightly difference.</li>
+                          <li>In <a href= "ratio_expensive_restaurant_choropleth.html">San Francisco</a>, restaurants in Chinatown, Inner Sunset, Mission, Outer Sunset, Tenderlion areas 
+                              are cheaper than others.</li>
+                          <li>In Albuquerque, restaurants in the Barelas/South Valley area are cheaper than others.</li>
+                          <li>In Detroit, restaurants in Downtown Birmingham and Downtown Royal Oak areas are little more expensive than
+                          others.</li>
+                    </ul>
+                </li>
+                
+            </ol>
 
 
 
