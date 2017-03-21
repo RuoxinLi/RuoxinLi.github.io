@@ -178,9 +178,9 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
 Firstly there are other information like location involves in the connetion plots;<br>
 Secondly, the number of restraurants in those plots are relatively larger than the restraurants with tags like Chinese, Japanese and Kocrean, making them harder to group.</p>
 
-<h5>Distribution</h5>
+<h5><strong>Distribution</strong></h5>
 <p>The number of restaurants with tags:<br>American > Acohol, Dessert, Europe ,SouthAmerican> Chinese, japaneseKorean, Indian > others</p>
-<h3> Research Projects </h3>
+<h3 align = "center"> Research Projects </h3>
 <p> Coming Soon...<p>
 
 
