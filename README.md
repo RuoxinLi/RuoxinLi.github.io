@@ -1,5 +1,5 @@
 <h2 align = "center"> About me </h2>
-<img src = "phot.jpg" align = "center">
+<img src = "phot.jpg" width="100" height="100" align="middle">
 <p> Hello! My name is Ruoxin Li, you can also call me Rita if you want. I am a second year master's student in the department of Statistics at UC Davis. This is my first personal webpage for data analysis projects.My github repository is <a>https://github.com/RuoxinLi</a> . </p>
 
 
@@ -20,8 +20,12 @@ how do price, rating, number of reviews are related to each other? How do price 
 <p>
 The total number of pages we scrap is over 20000. During the search process, we found out that using “City” as search term is not a wise choice. Since the upper limit of the number of records displayed for any search term  is 1000. It largely limited the amount of data we can get for analysis. Our strategy to solve this problem is to split one city into multiple sub-areas, for instance detroit is splitted into Downtown Detroit, Detroit Riverside etc. In small areas, the number of restaurants will not exceed the upper bound for search records. Then we can get almost all restaurants in a city by simply adding up all the records we get from scraping each small area. There is also downside of this method, we can not using such method to scrap large cities like NYC, since there is no guarantee that the number of records in even small area will be less than 1000.
 </p>
-<p>Here is one example we scraped single page</p>
-```{python}
+<p>Here is one example we scraped single page. For more details, please visit our <a href = "https://github.com/miaoelenawang/STA-141B-Final-Project/tree/master/web_scraping">project repository</a></p>
+
+
+<pre><code class="python">
+
+
 def extract_single_page(url):
 	#url = "https://www.yelp.com/biz/craftsman-and-wolves-the-den-san-francisco-2"
 	page = requests.get(url)
@@ -79,14 +83,19 @@ def extract_single_page(url):
 	Business.update(related3)  
 	return Business
 
-```
+
+</code></pre>
 
 
 <h5>Data Processing</h5>
 <p>After getting the data from webpage, we first reformat some of the results. For instance, we treat reviews as numeric value and price as factors. Also we ignore the records with missing value. Finally we stack all those variables we got to be a dataframe.</p>
 <p>
-For the purpose of convenience, we group our raw tag set into 9 new categories. The original tags and our grouping methods are listed below. 
+For the purpose of convenience, we also group our raw tag set into 9 new categories. The original tags and our grouping methods are listed below. A more detailed explanation on how we deal with the dataset is on our project webpage. 
 </p>
+
+<h3> align = "center">Question we answered</h3>
+<h4> Distribution of Price, Rating in different categories.<h4>
+<p> Firstly we discovered single variables. Rating and price are important attributes of restaurants. In the dataset, ratings are real numbers from 0 to 5 while price are categorical(1: Inexpensive, 2: Moderate, 3: Pricey, 4: Highend). We are interested in Price and Rating's distribution in different cities and restaurants tags. 
 
 
 
@@ -95,8 +104,5 @@ For the purpose of convenience, we group our raw tag set into 9 new categories. 
 
 
 <h3> More projects </h3>
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RuoxinLi/RuoxinLi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+(https://github.com/RuoxinLi/RuoxinLi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
