@@ -3,13 +3,13 @@
 <img src="phot.jpg" width = "100px" height = "100px"/>
    
 
-<p> Hello! My name is Ruoxin Li, you can also call me Rita if you want. I am a second year master's student in the department of Statistics at UC Davis. This is my first personal webpage for data analysis projects.My github repository is <a>https://github.com/RuoxinLi</a> . </p>
+<p> Hello! My name is Ruoxin Li, you can also call me Rita if you want. I am a second year master's student in the department of Statistics at UC Davis. This is my first personal webpage for data analysis projects.My github repository is <a>https://github.com/RuoxinLi</a>. </p>
 
 
 
 
 
-<h2 align = "center"> My 141B project ----<a href = "https://github.com/miaoelenawang/STA-141B-Final-Project/tree/master/">Data Analysis and Visualization for Yelp</a> </h2>
+<h2 id="141" align = "center"> My 141B project ----<a href = "https://github.com/miaoelenawang/STA-141B-Final-Project/tree/master/">Data Analysis and Visualization for Yelp</a> </h2>
 <h3> Questions </h3>
  <p>Food is one of the most interesting topics we want to discover since it is so deeply involved in our daily life. On a large scale, we are interested in the spatial distribution of number of restaurants in different states. We want to answer the following questions:
 how do price, rating, number of reviews are related to each other? How do price and rating varies across different cities? Do different kinds of restaurant has similar price or rating? As we go further in the discovery of restaurants, we also noticed that Yelp's recommendation systerm recommend restaurants by high similarity and we want to know all same kinds of restaurants always being connected(recommended)?</p>
