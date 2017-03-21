@@ -125,22 +125,49 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
                           others.</li>
                     </ul>
                 </li>
-             </ol>
-	     <ol>
+        </ol>
+	   <ol>
                 <li><strong> Price </strong>
                     <ul>
                           <li>For each city, price of restaurants in different areas are concentrated on "$" and "$$".
                               But there still exists slightly difference.</li>
-                          <li>In <a href= "ratio_expensive_restaurant_choropleth.html">San Francisco</a>, restaurants in Chinatown, Inner Sunset, Mission, Outer Sunset, Tenderlion areas 
+                          <li>In San Francisco, restaurants in Chinatown, Inner Sunset, Mission, Outer Sunset, Tenderlion areas 
                               are cheaper than others.</li>
                           <li>In Albuquerque, restaurants in the Barelas/South Valley area are cheaper than others.</li>
                           <li>In Detroit, restaurants in Downtown Birmingham and Downtown Royal Oak areas are little more expensive than
                           others.</li>
                     </ul>
                 </li>
-                
-            </ol>
-
+  </ol>
+  <p> A more detailed analysis is on <a href = "https://github.com/miaoelenawang/STA-141B-Final-Project/tree/master">project repository</a></p>
+  
+ <h4>Spatial Grouping in network of restaurants in two cities</h4>
+<div class="row">
+      <div class="col-sm-8">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            San-francisco
+          </div>
+          <iframe width="100%" height="1000px" frameborder="0" scrolling="no" src="http://plot.ly/~Rita0309/38.embed"></iframe>
+          </div>
+      </div>    
+      <div class="col-sm-4">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+             Analysis for San-francisco
+          </div>
+          <div class="chart-stage">
+            <h3>Chinese,Alcohol,Kocreal and Japanese,South American,South East Asian,Indian,Europe, Dessert</h3>
+			<p>Restaurants with those tags does not grouped well in San-francisco</p>
+			<h3> American</h3>
+			<p> Number of American Restraurants is the largest in San-francisco, and they share most connections. However, the grouping of American restaurants may simply due to the large sample size.</p>
+			<h3> Distribution</h3>
+			<p> The number of restranrants with tags: American > Dessert, Alcohol, Europe > Chinese, Japanese and Kocrean, SouthEast Asian, South American > Indian, others
+			<p> Above all, restaurants in San-francisco does not group well as the other two cities. We noticed that the number of restaurants in SF is much larger than Detroit and Alburquque. Therefore, those restaurants may scattered spatially, making them hard to share same collection. Also,  in san-franciso, it is more like for one restaurant to obtain multiple tags( given san-francisco is an international city). Therefore those tags lost specifility here. </p>
+          </div>
+        </div>
+      </div>      
+    </div>
 
 
 
