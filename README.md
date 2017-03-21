@@ -116,7 +116,7 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
        
 <ol>
                 <li><strong> Rating </strong>
-                    <ul style="list-style-type:disc">
+                    <ul>
                           <li>In San Francisco, restaurants in Bayview-Hunters Point, Bernal Heights, Castro, Misson, Potrero Hill,
                           SoMa areas have higher rating than others.</li>
                           <li>In Albuquerque, restaurants in Barelas/South Valley, Downtown and International District areas have
@@ -127,7 +127,7 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
                 </li>
                 
                 <li><strong> Price </strong>
-                    <ul style="list-style-type:disc">
+                    <ul>
                           <li>For each city, price of restaurants in different areas are concentrated on "$" and "$$".
                               But there still exists slightly difference.</li>
                           <li>In <a href= "ratio_expensive_restaurant_choropleth.html">San Francisco</a>, restaurants in Chinatown, Inner Sunset, Mission, Outer Sunset, Tenderlion areas 
