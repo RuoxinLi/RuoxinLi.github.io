@@ -163,7 +163,7 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
 <h5><strong> Desert, Europe Food</strong></h5>
 <p>Restaurant in those tags are not well grouped. Since there are other factors like location also involved in their connection</p> <p>From the network, we can also get a rough idea about how the restraurant distributed in each tag. Apparently the number of restaurant under that tags are: American > Europe, Alcohol, Dessert> South American > Chinese > Other in Detroit.
 
-<br>And also we noticed that the connection are not only formed by tags, some of the restaurant is connected since they are in the same place. Therefore to better cluster them, we can adding the "area“ as variable.</p></div>
+<br>And also we noticed that the connection are not only formed by tags, some of the restaurant is connected since they are in the same place. Therefore to better cluster them, we can adding the "area“ as variable.</p>
 
 <h5 align= "center"><strong>Analysis for Albuquerque</strong></h5>
 <div>
