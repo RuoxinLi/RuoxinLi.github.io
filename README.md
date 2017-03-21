@@ -13,22 +13,22 @@ how do price, rating, number of reviews are related to each other? How do price 
 
 <h3> Dataset </h3>
 
-<li>
+
 <h5>Web Scraping Strategy
 </h5>
 <p>
 The total number of pages we scrap is over 20000. During the search process, we found out that using “City” as search term is not a wise choice. Since the upper limit of the number of records displayed for any search term  is 1000. It largely limited the amount of data we can get for analysis. Our strategy to solve this problem is to split one city into multiple sub-areas, for instance detroit is splitted into Downtown Detroit, Detroit Riverside etc. In small areas, the number of restaurants will not exceed the upper bound for search records. Then we can get almost all restaurants in a city by simply adding up all the records we get from scraping each small area. There is also downside of this method, we can not using such method to scrap large cities like NYC, since there is no guarantee that the number of records in even small area will be less than 1000.
 </p>
-</li>
 
-<li>
+
+
 <h5>Data Processing</h5>
 <p>After getting the data from webpage, we first reformat some of the results. For instance, we treat reviews as numeric value and price as factors. Also we ignore the records with missing value. Finally we stack all those variables we got to be a dataframe.</p>
 <p>
 For the purpose of convenience, we group our raw tag set into 9 new categories. The original tags and our grouping methods are listed below. 
 </p>
 
-</li>
+
 
 ```markdown
 Syntax highlighted code block
