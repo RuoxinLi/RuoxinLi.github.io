@@ -181,6 +181,6 @@ Secondly, the number of restraurants in those plots are relatively larger than t
 <h5><strong>Distribution</strong></h5>
 <p>The number of restaurants with tags:<br>American > Acohol, Dessert, Europe ,SouthAmerican> Chinese, japaneseKorean, Indian > others</p>
 <h3 align = "center"> Research Projects </h3>
-<p> Coming Soon...<p>
+<p> Coming Soon......<p>
 
 
