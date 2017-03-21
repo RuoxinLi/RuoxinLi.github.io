@@ -115,7 +115,7 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
 <h4>Spatial Difference of Price and Rating in three cities</h4>
        
 <ol>
-                <li><strong> Rating </strong>
+          <li><strong> Rating </strong>
                     <ul>
                           <li>In San Francisco, restaurants in Bayview-Hunters Point, Bernal Heights, Castro, Misson, Potrero Hill,
                           SoMa areas have higher rating than others.</li>
@@ -125,7 +125,8 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
                           others.</li>
                     </ul>
                 </li>
-                
+             </ol>
+	     <ol>
                 <li><strong> Price </strong>
                     <ul>
                           <li>For each city, price of restaurants in different areas are concentrated on "$" and "$$".
