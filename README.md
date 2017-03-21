@@ -142,41 +142,44 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
   <p> A more detailed analysis is on <a href = "https://github.com/miaoelenawang/STA-141B-Final-Project/tree/master">project repository</a></p>
   
  <h4>Spatial Grouping in network of restaurants in two cities</h4>
- <h4>Introduction</h4>
+ <h5><strong>Introduction</strong></h5>
   <p>From the Yelp website, we find the relatedness of each restaurant. It is known that Yelp recommends those related restaurant for similarity between them. For instance, restaurants may sell same kinds of food or are close to each other. Therefore we want to recover such similarity between those restaurants which are related. In the network graph, each node is a restaurant and edges are connections. Here we color the nodes by their tags( after cleaning). We are hoping we can see some grouping on the nodes of the network graph.
  <br> Note: Since it is possible for each restaurant to have multiple tags, we add boolean attributes to each restaurant( such as whether a restaurant has tag "Chinese" or not). Therefore, if we click on tag in the legend, the colored nodes are restaurants with that tag, while the gray one are restaurants does not have that tag.</p>
   
-  <div>
-    <div>Analysis for Detroit</div>
-          <div >
-		  <div>
+     
+ <h5 align= "center"><strong>Analysis for Detroit</strong></h5>
+   <div>
     <a href="https://plot.ly/~Rita0309/36/?share_key=zmEfWFVDn5NlCo00UkJX1f" target="_blank" title="Detroit.html" style="display: block; text-align: center;"><img src="https://plot.ly/~Rita0309/36.png?share_key=zmEfWFVDn5NlCo00UkJX1f" alt="Detroit.html" style="max-width: 100%;width: 1000px;"  width="1000" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    <script data-plotly="Rita0309:36" sharekey-plotly="zmEfWFVDn5NlCo00UkJX1f" src="https://plot.ly/embed.js" async></script>
-</div>
-
-                   
- 
-		   <h3> Chinese</h3>
-		   <p>Chinese restaurant are grouped well. And also the number of Chinese restaurant is very small in Detroit.(click all the trace except chinese)</p>
-		   <h3>Alcohol</h3>
-		   <p> Though bars and pubs are not well grouped but most of them are still connected.</p>
-		   <h3>American</h3>
-		   <p>Most american restaurant are spanned on connected nodes.And the number of american food restaurant is the most</p>
-		   <h3> South American</h3>
-		   <p>Most South american restaurant are spanned on connected nodes</p>
-		   <h3> Desert, Europe Food</h3>
-		   <p>Restaurant in those tags are not well grouped. Since there are other factors like location also involved in their connection</p>
-		   <p>From the network, we can also get a rough idea about how the restraurant distributed in each tag. Apparently the number of restaurant under that tags are: American > Europe, Alcohol, Dessert> South American > Chinese > Other in Detroit.
-
-           <br>And also we noticed that the connection are not only formed by tags, some of the restaurant is connected since they are in the same place. Therefore to better cluster them, we can adding the "area“ as variable.</p>
-		   
-		   
-		   
-		   
-		  </div>
     </div>
 
+ <h5><strong>Chinese</strong></h5>
+  <p>Chinese restaurant are grouped well. And also the number of Chinese restaurant is very small in Detroit.(click all the trace except chinese)</p>
+  <h5><strong> Alcohol</strong></h5>
+  <p> Though bars and pubs are not well grouped but most of them are still connected.</p>
+  <h5><strong>American</strong></h5>
+<p>Most american restaurant are spanned on connected nodes.And the number of american food restaurant is the most</p>
+<h5><strong> South American</strong></h5>
+<p>Most South american restaurant are spanned on connected nodes</p>
+<h5><strong> Desert, Europe Food</strong></h5>
+<p>Restaurant in those tags are not well grouped. Since there are other factors like location also involved in their connection</p> <p>From the network, we can also get a rough idea about how the restraurant distributed in each tag. Apparently the number of restaurant under that tags are: American > Europe, Alcohol, Dessert> South American > Chinese > Other in Detroit.
 
+<br>And also we noticed that the connection are not only formed by tags, some of the restaurant is connected since they are in the same place. Therefore to better cluster them, we can adding the "area“ as variable.</p></div>
+
+<h5 align= "center"><strong>Analysis for Albuquerque</strong></h5>
+<div>
+    <a href="https://plot.ly/~Rita0309/40/?share_key=lUO7SKHeWE0f9RoY6RQtcU" target="_blank" title="abq.html" style="display: block; text-align: center;"><img src="https://plot.ly/~Rita0309/40.png?share_key=lUO7SKHeWE0f9RoY6RQtcU" alt="abq.html" style="max-width: 100%;width: 1000px;"  width="1000" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+ </div>
+
+<h5><strong>Similar to the analysis above, tags that are grouped well</strong></h5>
+<p>Chinese Restraurants, Japanese and Kocrean restraurants, American restraurants, SouthEast Asian Restaurants, Indian Restaurants, SouthAmerican food</p>
+<h5><strong>Less satisfying</strong></h5>
+<p>Those are tags that does not group well from the plots:<br>Acohol, Dessert, Europe.</p>
+<p> The reason why restraurants with those tags does not group well are:<br>
+Firstly there are other information like location involves in the connetion plots;<br>
+Secondly, the number of restraurants in those plots are relatively larger than the restraurants with tags like Chinese, Japanese and Kocrean, making them harder to group.</p>
+
+<h3>Distribution</h3>
+<p>The number of restaurants with tags:<br>American > Acohol, Dessert, Europe ,SouthAmerican> Chinese, japaneseKorean, Indian > others</p>
 <h3> More projects </h3>
-(https://github.com/RuoxinLi/RuoxinLi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
 
