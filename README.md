@@ -151,7 +151,9 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
  <h5 align= "center"><strong>Analysis for Detroit</strong></h5>
    <div>
     <a href="https://plot.ly/~Rita0309/36/?share_key=zmEfWFVDn5NlCo00UkJX1f" target="_blank" title="Detroit.html" style="display: block; text-align: center;"><img src="https://plot.ly/~Rita0309/36.png?share_key=zmEfWFVDn5NlCo00UkJX1f" alt="Detroit.html" style="max-width: 100%;width: 1000px;"  width="1000" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
-    </div>
+    <script data-plotly="Rita0309:36" sharekey-plotly="zmEfWFVDn5NlCo00UkJX1f" src="https://plot.ly/embed.js" async></script>
+</div>
+
 
  <h5><strong>Chinese</strong></h5>
   <p>Chinese restaurant are grouped well. And also the number of Chinese restaurant is very small in Detroit.(click all the trace except chinese)</p>
@@ -168,8 +170,10 @@ For the purpose of convenience, we also group our raw tag set into 9 new categor
 
 <h5 align= "center"><strong>Analysis for Albuquerque</strong></h5>
 <div>
-    <a href="https://plot.ly/~Rita0309/40/?share_key=lUO7SKHeWE0f9RoY6RQtcU" target="_blank" title="abq.html" style="display: block; text-align: center;"><img src="https://plot.ly/~Rita0309/40.png?share_key=lUO7SKHeWE0f9RoY6RQtcU" alt="abq.html" style="max-width: 100%;width: 1000px;"  width="1000" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
- </div>
+    <a href="https://plot.ly/~Rita0309/36/?share_key=zmEfWFVDn5NlCo00UkJX1f" target="_blank" title="Detroit.html" style="display: block; text-align: center;"><img src="https://plot.ly/~Rita0309/36.png?share_key=zmEfWFVDn5NlCo00UkJX1f" alt="Detroit.html" style="max-width: 100%;width: 1000px;"  width="1000" onerror="this.onerror=null;this.src='https://plot.ly/404.png';" /></a>
+    <script data-plotly="Rita0309:36" sharekey-plotly="zmEfWFVDn5NlCo00UkJX1f" src="https://plot.ly/embed.js" async></script>
+</div>
+
 
 <h5><strong>Similar to the analysis above, tags that are grouped well</strong></h5>
 <p>Chinese Restraurants, Japanese and Kocrean restraurants, American restraurants, SouthEast Asian Restaurants, Indian Restaurants, SouthAmerican food</p>
