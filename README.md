@@ -2,6 +2,6 @@
 
 <img src="phot.jpg" width = "100px" height = "100px"/>
    
+<p> Hello! My name is Ruoxin Li, you can also call me Rita. I am a first year Ph.D student in Biostatistics at UC Davis. My current research focus is developing statistical methods to visualize single cell expression profile, in order to better identify cellular trajectories. I am interested in the application of probabilistic models and machine learning methods in high-dimensional genomic data, especially in how model interpretation brings up meaningful biological insights. My work is under the supervision of <a href = "http://qlab.faculty.ucdavis.edu/"> Prof.Gerald Quon</a>,we have a very cute lab.</p>
 
-<p> Hello! My name is Ruoxin Li, you can also call me Rita if you want. I am a second year master's student in the department of Statistics at UC Davis. This is my first personal webpage for data analysis projects.My github repository is <a>https://github.com/RuoxinLi</a>. </p>
-<h2 id="141" align = "center"> My 141B project ----<a href = "https://github.com/miaoelenawang/STA-141B-Final-Project/tree/master/">Data Analysis and Visualization for Yelp</a> </h2>
+<p>In my spare time, I enjoy hiking ,hand-crafting and understanding the world. I am also trying to develop certain level of expertise in illustration.</p>
