@@ -11,16 +11,18 @@ filename: index
 <p>In my spare time, I enjoy hiking and hand-crafting. I am also trying to develop certain level of expertise in illustration.</p>
 
 <h3> Research interest </h3>
--Bayesian generative models
--Dimensionality reduction 
--Single cell genomics
--Feature attribution 
--Deep representive learning
-
+<ul>
+  <li>Bayesian generative models</li>
+  <li>Dimensionality reduction </li>
+  <li>Single cell genomics</li>
+  <li>Feature attribution </li>
+  <li>Deep representive learning </li>
+</ul>
 
 <h3> Area I am willing to dive into </h3>
--Multimodel data analysis
--GWAS
-
+<ul>
+  <li>Multimodel data analysis</li>
+  <li>GWAS</li>
+</ul>
 
 
