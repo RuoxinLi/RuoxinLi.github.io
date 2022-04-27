@@ -16,7 +16,8 @@ filename: index
   <li>Dimensionality reduction </li>
   <li>Single cell genomics</li>
   <li>Feature attribution </li>
-  <li>Deep representive learning </li>
+  <li>Deep representation learning </li>
+  <li>Generalized linear models</li>
 </ul>
 
 <h3> Area I am willing to dive into </h3>
