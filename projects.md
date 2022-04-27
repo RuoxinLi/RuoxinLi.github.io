@@ -1,5 +1,5 @@
 ---
 title: Projects
 layout: template
-filename: Projects
+filename: projects
 --- 
