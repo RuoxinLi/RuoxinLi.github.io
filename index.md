@@ -9,3 +9,18 @@ filename: index
 <p> Hello! My name is Ruoxin, you can also call me Rita. I am a Ph.D candidate in Biostatistics at UC Davis. My current research focus is developing statistical methods to  analyze single cell genomics data.  I am interested in the application of probabilistic models and machine learning methods in high-dimensional genomic data, especially in how model interpretation brings up meaningful biological insights. My work is under the supervision of <a href = "http://qlab.faculty.ucdavis.edu/"> Prof.Gerald Quon</a>
 
 <p>In my spare time, I enjoy hiking and hand-crafting. I am also trying to develop certain level of expertise in illustration.</p>
+
+<h3> Research interest </h3>
+-Bayesian generative models
+-Dimensionality reduction 
+-Single cell genomics
+-Feature attribution 
+-Deep representive learning
+
+
+<h3> Area I am willing to dive into </h3>
+-Multimodel data analysis
+-GWAS
+
+
+
