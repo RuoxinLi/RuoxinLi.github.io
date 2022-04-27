@@ -1,7 +1,7 @@
 ---
 title: Projects in progress
 layout: template
-filename: projects
+filename: projects_in_progress
 --- 
 
 <img src="Screen Shot 2022-04-26 at 6.56.39 PM.png"/>
