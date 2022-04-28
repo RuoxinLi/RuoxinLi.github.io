@@ -22,7 +22,7 @@ filename: index
 
 <h3> Area I am willing to dive into </h3>
 <ul>
-  <li>Multimodel data analysis</li>
+  <li>Multimodal genomics data analysis</li>
   <li>GWAS</li>
 </ul>
 
