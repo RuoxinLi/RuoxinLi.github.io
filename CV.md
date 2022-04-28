@@ -3,4 +3,4 @@ title: CV
 layout: template
 filename: CV
 --- 
-<a href="https://github.com/RuoxinLi/RuoxinLi.github.io/CV-8.pdf" target="_blank">CV</a>
+<object data="{{ site.url }}{{ site.baseurl }}/CV-8.pdf" width="1000" height="1000" type="application/pdf"></object>
