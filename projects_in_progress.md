@@ -1,5 +1,5 @@
 ---
-title: Demo
+title: Demo project
 layout: template
 filename: projects_in_progress
 --- 
