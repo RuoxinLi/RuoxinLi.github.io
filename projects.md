@@ -11,4 +11,6 @@ Large fields of single transcriptomes study have extensively explored the effect
 
 
 # Autoregressive graph generation (2020)
+<img src="graph_demo.png"/>
+
 We build a graph generator that can apply to small graphs and achieve state of the art accuracy on graph generation.
