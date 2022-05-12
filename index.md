@@ -23,6 +23,7 @@ filename: index
 <h3> Area I am willing to dive into </h3>
 <ul>
   <li>Multimodal genomics data analysis</li>
+  <li>Spatial transcriptomes</li>
   <li>GWAS</li>
 </ul>
 
