@@ -12,11 +12,8 @@ filename: index
 
 <h3> Research interest </h3>
 <ul>
-  <li>Bayesian generative models</li>
-  <li>Dimensionality reduction </li>
   <li>Feature attribution </li>
   <li>Deep representation learning </li>
-  <li>Generalized linear models</li>
   <li>Single cell genomics</li>
 </ul>
 
